@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200..500);
+
+:root {
+    --color-text: #93e8d4;
+    --color-hover: #a288d9;
+    --color-header: #f5b1cc;
+    --color-bg: #091f2c;
+}
+
+html {
+    background-color: var(--color-bg);
+    font-family: 'Azeret Mono';
+    font-weight: 200;
+    font-size: 20px;
+    justify-content: center;
+    margin: 0;
+    align-items: right;
+    height: 110%;
+    display: flex;
+}
+
+a:hover {
+    color: var(--color-hover);    
+}
+
+    body {
+        display:flex;
+        margin: 1em;
+        padding: 1em;
+        align-self: flex-start;
+        justify-content: right;
+    }
+
+    h1 {
+        font-weight: 500;
+        font-size: 1em;
+        color: mistyrose;
+        grid-column: 1 / -1;
+        margin: 0;
+        text-align: right;
+    }
+
+    ul {
+        list-style-type: none;
+        font-weight: 300;
+        font-size: 1em;
+        color: var(--color-text);
+    }
+
+    li:first-child {
+        font-weight:500;
+        font-size: 1em;
+        color: var(--color-header);
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:focus
+
+
+
+    nav {
+        display: flex;
+    }
+
+    img {
+        height: auto;
+        width: 30%;
+        margin: 1em;
+        border: 3px solid var(--color-header);
+        align-self: first baseline
+    }
+
+input {
+    font-family: 'Azeret Mono';
+    font-size: 20px;
+    font-weight: 300;
+    background-color: unset;
+    color:var(--color-header);
+    height: auto;
+    width: 100%;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    outline: 0;
+    margin: 1em;
+    align-self: first baseline;
+}
